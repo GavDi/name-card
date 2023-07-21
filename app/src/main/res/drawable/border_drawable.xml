@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Фон с заданным цветом -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#CCCCCC" /> <!-- Здесь укажите желаемый цвет фона -->
+            <corners android:radius="8dp" /> <!-- Радиус закругления углов в dp -->
+        </shape>
+    </item>
+
+    <!-- Граница с заданным цветом -->
+    <item android:top="1dp" android:left="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <stroke android:color="#000000" android:width="2dp" /> <!-- Здесь укажите желаемый цвет и толщину границы -->
+            <corners android:radius="8dp" /> <!-- Радиус закругления углов в dp, должен совпадать с фоном -->
+        </shape>
+    </item>
+</layer-list>

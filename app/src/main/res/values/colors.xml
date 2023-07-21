@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="my_cursor_color">#1b1b1b</color> <!-- Цвет курсора при фокусе -->
+    <color name="my_cursor_color_default">#1b1b1b</color> <!-- Цвет курсора по умолчанию -->
+
+</resources>
